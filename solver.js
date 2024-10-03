@@ -2,7 +2,7 @@ const ac = require("@antiadmin/anticaptchaofficial");
 
 async function solvehCaptcha(url) {
   return new Promise((resolve, reject) => {
-    ac.setAPIKey("YOUR KEY");
+    ac.setAPIKey("7cfa5291afb03331407572a5f6f50255");
 
     const enterprisePayload = null;
     const isInvisible = false;
